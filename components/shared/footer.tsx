@@ -25,8 +25,12 @@ export default function Footer() {
                         <Link href='/page/help'>Help</Link>
                         </div>
                         <div className="flex justify-center  text-sm">
-                            <p></p>
-
+                            <p>©2025, {APP_NAME}, Inc.</p>
+                       </div>
+                       <div className="flex justify-center text-sm text-gray-400">
+                        33, Bonduma, Buea-Cameroon | 237 654432750
+                
+                
                 </div>
                 </footer>
   )      

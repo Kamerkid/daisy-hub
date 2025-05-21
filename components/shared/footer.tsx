@@ -6,13 +6,12 @@ import Link from "next/link";
 
 export default function Footer() { 
     return (
-        < className="bg-black text-white underline-link">
+        < footer className="bg-black text-white underline-link">
             <div className="w-full">
                 <Button
                 variant="ghost"
                 className='bg-gray-800 w-full rounded-none'
-                onClick={() => {
-                    window.scrollTo({
+                onClick={() => window.scrollTo({
                         top: 0,
                         behavior: 'smooth',})}
                         >
@@ -28,11 +27,7 @@ export default function Footer() {
                         <div className="flex justify-center  text-sm">
                             <p></p>
 
-                
-            
-
-
-
-
-             )      
+                </div>
+                </footer>
+  )      
 }

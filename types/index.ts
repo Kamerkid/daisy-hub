@@ -5,7 +5,7 @@ export type IProductInput = z.infer<typeof ProductInputSchema>
 
 export type Data = {
     products: IProductInput[]
-    headersMenus:{
+    headersMenu:{
         name: string
         href: string
     }[]

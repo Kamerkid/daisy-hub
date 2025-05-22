@@ -1,8 +1,9 @@
-import type { Config } from 'tailwindcss'
+// import { Config } from 'tailwindcss' // Not needed in JS, remove this line
+import tailwindcssAnimate from 'tailwindcss-animate'
 
 
 
-const config: Config = withUt({
+const config = withUt({
   darkMode: ['class'],
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -60,7 +61,7 @@ const config: Config = withUt({
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
-}) satisfies Config
+  plugins: [tailwindcssAnimate],
+})
 
 export default config

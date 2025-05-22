@@ -714,7 +714,7 @@ const products: IProductInput[] = [
 const data: Data = { 
     products,
     
-    headersMenus: [
+    headersMenu: [
     {
      name: "Todays Deal",
      href: '/search?tag=todays-deal',

@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { APP_NAME } from "@/lib/constants";
 import Link from "next/link";
 
+
 export default function Footer() { 
     return (
         < footer className="bg-black text-white underline-link">

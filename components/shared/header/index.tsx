@@ -7,6 +7,7 @@ import { MenuIcon } from "lucide-react";
 import  data from '@/lib/data'
 import  Search from './search'
 
+
    
 export default function Header() {
     return (

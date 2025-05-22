@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { MenuIcon } from "lucide-react";
 import  data from '@/lib/data'
 import  Search from './search'
+
    
 export default function Header() {
     return (
@@ -40,7 +41,7 @@ export default function Header() {
                      All
                     </Button>
                     <div className="flex items-center flex-wrap gap-3 overflow-hidden max-h-[42px]">
-                    {data.headerMenus.map((menu)=> (
+                    {data.headersMenus.map((menu)=> (
                         <Link
                         key={menu.name}
                         href={menu.href}
